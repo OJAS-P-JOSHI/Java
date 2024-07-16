@@ -2,9 +2,11 @@ public class Basics {
     public static void main(String[] args) { 
         System.out.println("Hello World");
 
-        // Call methods to demonstrate data types and type casting
+        // Call methods to demonstrate data types, type casting, and conversions
         displayPrimitiveDataTypes();
         demonstrateTypeCasting();
+        demonstratePrimitiveToNonPrimitive();
+        demonstrateNonPrimitiveToPrimitive();
     }
 
     // Method to display all primitive data types
@@ -51,5 +53,31 @@ public class Basics {
         System.out.println("double to float: " + anotherFloatVal);
         System.out.println("float to long: " + anotherLongVal);
         System.out.println("long to int: " + anotherIntVal);
+    }
+
+    // Method to demonstrate conversion from primitive to non-primitive (wrapper) types
+    public static void demonstratePrimitiveToNonPrimitive() {
+        int intVar = 5;
+        Integer integerWrapper = intVar; // Auto-boxing primitive int to Integer
+
+        double doubleVar = 5.5;
+        Double doubleWrapper = doubleVar; // Auto-boxing primitive double to Double
+
+        System.out.println("Primitive to Non-Primitive:");
+        System.out.println("int to Integer: " + integerWrapper);
+        System.out.println("double to Double: " + doubleWrapper);
+    }
+
+    // Method to demonstrate conversion from non-primitive (wrapper) types to primitive
+    public static void demonstrateNonPrimitiveToPrimitive() {
+        Integer integerWrapper = 10; // Auto-boxing
+        int intVar = integerWrapper; // Unboxing Integer to primitive int
+
+        Double doubleWrapper = 10.5; // Auto-boxing
+        double doubleVar = doubleWrapper; // Unboxing Double to primitive double
+
+        System.out.println("Non-Primitive to Primitive:");
+        System.out.println("Integer to int: " + intVar);
+        System.out.println("Double to double: " + doubleVar);
     }
 }
