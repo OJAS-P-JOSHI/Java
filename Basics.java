@@ -1,15 +1,11 @@
 public class Basics { 
     public static void main(String[] args) { 
-        System.out.println("Hello World");
-
-        // Call methods to demonstrate data types, type casting, and conversions
         displayPrimitiveDataTypes();
         demonstrateTypeCasting();
         demonstratePrimitiveToNonPrimitive();
         demonstrateNonPrimitiveToPrimitive();
     }
 
-    // Method to display all primitive data types
     public static void displayPrimitiveDataTypes() {
         byte byteVar = 1;
         short shortVar = 12345;
@@ -21,18 +17,24 @@ public class Basics {
         boolean booleanVar = true;
 
         System.out.println("Byte Value: " + byteVar);
+        // Output: Byte Value: 1
         System.out.println("Short Value: " + shortVar);
+        // Output: Short Value: 12345
         System.out.println("Int Value: " + intVar);
+        // Output: Int Value: 1234567890
         System.out.println("Long Value: " + longVar);
+        // Output: Long Value: 1234567890123456789
         System.out.println("Float Value: " + floatVar);
+        // Output: Float Value: 123.45
         System.out.println("Double Value: " + doubleVar);
+        // Output: Double Value: 123.456789
         System.out.println("Char Value: " + charVar);
+        // Output: Char Value: A
         System.out.println("Boolean Value: " + booleanVar);
+        // Output: Boolean Value: true
     }
 
-    // Method to demonstrate type casting
     public static void demonstrateTypeCasting() {
-        // Implicit Casting (Widening)
         int intVal = 100;
         long longVal = intVal; // int to long
         float floatVal = longVal; // long to float
@@ -40,10 +42,12 @@ public class Basics {
 
         System.out.println("Implicit Casting:");
         System.out.println("int to long: " + longVal);
+        // Output: int to long: 100
         System.out.println("long to float: " + floatVal);
+        // Output: long to float: 100.0
         System.out.println("float to double: " + doubleVal);
+        // Output: float to double: 100.0
 
-        // Explicit Casting (Narrowing)
         double anotherDoubleVal = 100.04;
         float anotherFloatVal = (float) anotherDoubleVal; // double to float
         long anotherLongVal = (long) anotherFloatVal; // float to long
@@ -51,33 +55,38 @@ public class Basics {
 
         System.out.println("Explicit Casting:");
         System.out.println("double to float: " + anotherFloatVal);
+        // Output: double to float: 100.04
         System.out.println("float to long: " + anotherLongVal);
+        // Output: float to long: 100
         System.out.println("long to int: " + anotherIntVal);
+        // Output: long to int: 100
     }
 
-    // Method to demonstrate conversion from primitive to non-primitive (wrapper) types
     public static void demonstratePrimitiveToNonPrimitive() {
         int intVar = 5;
-        Integer integerWrapper = intVar; // Auto-boxing primitive int to Integer
+        Integer integerWrapper = intVar; // Auto-boxing
 
         double doubleVar = 5.5;
-        Double doubleWrapper = doubleVar; // Auto-boxing primitive double to Double
+        Double doubleWrapper = doubleVar; // Auto-boxing
 
         System.out.println("Primitive to Non-Primitive:");
         System.out.println("int to Integer: " + integerWrapper);
+        // Output: int to Integer: 5
         System.out.println("double to Double: " + doubleWrapper);
+        // Output: double to Double: 5.5
     }
 
-    // Method to demonstrate conversion from non-primitive (wrapper) types to primitive
     public static void demonstrateNonPrimitiveToPrimitive() {
         Integer integerWrapper = 10; // Auto-boxing
-        int intVar = integerWrapper; // Unboxing Integer to primitive int
+        int intVar = integerWrapper; // Unboxing
 
         Double doubleWrapper = 10.5; // Auto-boxing
-        double doubleVar = doubleWrapper; // Unboxing Double to primitive double
+        double doubleVar = doubleWrapper; // Unboxing
 
         System.out.println("Non-Primitive to Primitive:");
         System.out.println("Integer to int: " + intVar);
+        // Output: Integer to int: 10
         System.out.println("Double to double: " + doubleVar);
+        // Output: Double to double: 10.5
     }
 }
