@@ -1,4 +1,3 @@
-
 # Java Project: Methods and Classes Examples
 
 **This project demonstrates various Java programming concepts, including methods and classes, implemented in different ways within the `Main` class and related classes.**
@@ -7,13 +6,13 @@
 
 **The project directory structure is organized as follows:**
 
-**└── ClassesNMethodsCall/
+**`└── ClassesNMethodsCall/
 │ ├── Main.java
 │ ├── ExternalClass.java
 │ ├── ExternalClassWithInterface.java
 │ ├── ExternalClassWithAbstract.java
 │ ├── MessageProvider.java
-│ └── AbstractMessageProvider.java**
+│ └── AbstractMessageProvider.java`**
 
 * **Calling Methods within the Same Class**
 * **Calling Methods from Internal Classes**

@@ -1,4 +1,4 @@
-package DataTypesNTypeCast;
+package DtTypesNTypCst;
 
 public class DtTypesNTypCst {
 
