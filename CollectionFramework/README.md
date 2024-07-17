@@ -1,7 +1,3 @@
-##### The Java Collections Framework provides a set of classes and interfaces that implement commonly reusable collection data structures and algorithms.
-
-
-
 ![1721231933943](image/README/1721231933943.png)
 
 
