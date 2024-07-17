@@ -1,4 +1,4 @@
-public class Basics { 
+public class DtTypesNTypCst{ 
     public static void main(String[] args) { 
         displayPrimitiveDataTypes();
         demonstrateTypeCasting();
