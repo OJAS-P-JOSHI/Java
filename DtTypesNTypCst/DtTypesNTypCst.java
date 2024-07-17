@@ -3,6 +3,7 @@ package DtTypesNTypCst;
 public class DtTypesNTypCst {
 
     public static void main(String[] args) {
+        System.out.println("-------------------------------------------");
         displayPrimitiveDataTypes();
         System.out.println("-------------------------------------------");
         demonstrateTypeCasting();
@@ -10,6 +11,8 @@ public class DtTypesNTypCst {
         demonstratePrimitiveToNonPrimitive();
         System.out.println("-------------------------------------------");
         demonstrateNonPrimitiveToPrimitive();
+        System.out.println("-------------------------------------------");
+
     }
 
     public static void displayPrimitiveDataTypes() {
