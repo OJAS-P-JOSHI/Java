@@ -1,8 +1,14 @@
-public class DtTypesNTypCst{ 
-    public static void main(String[] args) { 
+package DataTypesNTypeCast;
+
+public class DtTypesNTypCst {
+
+    public static void main(String[] args) {
         displayPrimitiveDataTypes();
+        System.out.println("-------------------------------------------");
         demonstrateTypeCasting();
+        System.out.println("-------------------------------------------");
         demonstratePrimitiveToNonPrimitive();
+        System.out.println("-------------------------------------------");
         demonstrateNonPrimitiveToPrimitive();
     }
 
