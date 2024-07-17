@@ -9,9 +9,8 @@
 | float      | IEEE 754 floating point | 0.0     | 32 bits | 1.23e100f, -1.23e-100f,<br /> .3f, 3.14F         | up to 7 decimal digits                                      |
 | double     | IEEE 754 floating point | 0.0     | 64 bits | 1.23456e300d,<br />-123456e-300d, 1e1d           | up to 16 decimal digits                                     |
 
----
-
-##### **Primitive Data Types
+```
+Primitive Data Types
 |
 |-- boolean
 |-- char
@@ -27,4 +26,5 @@
     |-- Floating Point Types
         |
         |-- float
-        |-- double**
+        |-- double
+```
