@@ -1,37 +1,5 @@
 # List Operations in Java
 
-# List Operations in Java
-
-This repository demonstrates various operations that can be performed on a `List` in Java using the `ArrayList` implementation. Below is a comprehensive list of operations, along with the corresponding code and explanations.
-
-## Table of Contents
-
-- [Introduction](#introduction)
-- [List of Operations](#list-of-operations)
-- [Java Code](#java-code)
-- [List Implementations in Java: Differences and Usage](#list-implementations-in-java-differences-and-usage)
-
-## Introduction
-
-This repository showcases how to perform various operations on a `List` in Java, primarily using the `ArrayList` implementation. You'll find code examples and explanations for creating, modifying, and manipulating lists, as well as a comparison of different `List` implementations available in Java.
-
-## List of Operations
-
-1. [Creating a List](#creating-a-list)
-2. [Adding Elements](#adding-elements)
-3. [Accessing Elements](#accessing-elements)
-4. [Modifying Elements](#modifying-elements)
-5. [Removing Elements](#removing-elements)
-6. [Checking if the List Contains an Element](#checking-if-the-list-contains-an-element)
-7. [Getting the Size of the List](#getting-the-size-of-the-list)
-8. [Iterating Over the List](#iterating-over-the-list)
-9. [Clearing the List](#clearing-the-list)
-10. [Checking if the List is Empty](#checking-if-the-list-is-empty)
-11. [Adding All Elements from Another List](#adding-all-elements-from-another-list)
-12. [Removing All Elements from Another List](#removing-all-elements-from-another-list)
-13. [Retaining Only the Elements that are also Contained in Another List](#retaining-only-the-elements-that-are-also-contained-in-another-list)
-14. [Converting the List to an Arra](#converting-the-list-to-an-array)
-
 This repository demonstrates various operations that can be performed on a `List` in Java using the `ArrayList` implementation. Below is a comprehensive list of operations, along with the corresponding code and explanations.
 
 ## List of Operations
