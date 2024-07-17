@@ -1,4 +1,4 @@
-package classesmethods;
+package ClassesNMethodsCall;
 
 public class Main {
     public static void main(String[] args) {
@@ -16,6 +16,10 @@ public class Main {
         // Call the method from the external class implementing an interface
         MessageProvider provider = new ExternalClassWithInterface();
         provider.provideMessage();
+
+        // Call the method from the external class extending an abstract class
+        AbstractMessageProvider abstractProvider = new ExternalClassWithAbstract();
+        abstractProvider.provideMessage();
     }
 
     // Method within Main class

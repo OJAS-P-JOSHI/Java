@@ -1,4 +1,4 @@
-package classesmethods;
+package ClassesNMethodsCall;
 
 public class ExternalClass {
     public void displayExternalMessage() {

@@ -1,4 +1,4 @@
-package classesmethods;
+package ClassesNMethodsCall;
 
 public class ExternalClassWithAbstract extends AbstractMessageProvider {
     @Override

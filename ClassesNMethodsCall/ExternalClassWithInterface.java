@@ -1,4 +1,4 @@
-package classesmethods;
+package ClassesNMethodsCall;
 
 public class ExternalClassWithInterface implements MessageProvider {
     @Override
